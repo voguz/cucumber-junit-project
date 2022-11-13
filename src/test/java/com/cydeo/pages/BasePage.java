@@ -20,6 +20,7 @@ public class BasePage {
     public WebElement logoutButton;
 
     public BasePage() {
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
